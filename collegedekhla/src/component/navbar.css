@@ -1,0 +1,16 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 100;
+}
+.brand,.listItem,.navbar-toggler-icon {
+    color: white;
+}
+.btn{
+    color: white;
+    background: #a0c814;
+}
+.btn :hover{
+    background: tomato;
+}

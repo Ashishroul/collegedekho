@@ -1,0 +1,36 @@
+.parent{
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+tr>th,tr>td{
+    background: black;
+    color: white;
+}
+table {
+    border-collapse: collapse; /* Optional: Ensures no space between table cells */
+}
+
+th {
+    padding: 0 50px 10px ; /* Adjust the value to set the desired space between header cells */
+}
+td {
+    padding: 0 50px 0 ; /* Adjust the value to set the desired space between header cells */
+}
+
+h6{
+    margin-top: 10px;
+    color: white;
+}
+
+@media (max-width: 786px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstdiv{
+        display:flex;
+        justify-self: center;
+    }
+}

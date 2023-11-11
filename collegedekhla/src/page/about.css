@@ -1,0 +1,18 @@
+.backgroundOverlay{
+    background-image: url('https://collegedakhla.com/wp-content/uploads/2023/03/1488259134phpShnPJa1-3.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path of your image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+h5{
+    color: tomato;
+}
+.Btn{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: #a0c814;
+}
