@@ -11,6 +11,6 @@
     color: white;
     background: #a0c814;
 }
-.btn :hover{
-    background: tomato;
+.btn:hover{
+    background-color: tomato;
 }
